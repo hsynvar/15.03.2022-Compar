@@ -1,0 +1,82 @@
+.footer{
+    background-color: whitesmoke;
+    height: 45vh;
+    .footleft{
+        width: 20%;
+        img{
+            width: 200px;
+            margin-bottom: 2rem;
+            margin-top: 2rem;
+        }
+        a{
+            display: block;
+            text-decoration: none;
+            margin-left: 10px;
+            color: $black-color;
+            font-weight: 300;
+            margin-top: 10px;
+            &:hover{
+                color: $blue-color;
+            }
+            i{
+                background: linear-gradient(90deg, rgba(2, 0, 36, 0.699) 0%, rgba(11,56,133,0.8099614845938375) 18%, rgba(205,156,208,1) 86%);
+                padding: 8px;
+                border-radius: 20px;
+                color: $white-color;
+
+            }
+
+        }
+    }
+    .footakademiya{
+        margin-top: 3rem;
+        ul{
+            li{
+                a{
+                    text-decoration: none;
+                    color: black;
+                    font-weight: 300;
+                    display: block;
+                    padding-top: 8px;
+                    &:hover{
+                        color: $blue-color;
+                    }
+                }
+            }
+        }
+        .icons{
+            i{
+                background: linear-gradient(90deg, rgba(2, 0, 36, 0.699) 0%, rgba(11,56,133,0.8099614845938375) 18%, rgba(205,156,208,1) 86%);
+                // background-color: $blue-color;
+                color: $white-color;
+                margin-right: 16px;
+                padding: 10px;
+                font-size: 16px;
+                transition: 0.4s;
+                border-radius: 18px;
+                transform: translateY(0);
+                &:hover{
+                    background-color: $purple-color;
+                    transform: translateY(-5px);
+                }
+            }
+        }
+    }
+    .footkurs{
+        margin-top: 3rem;
+        ul{
+            li{
+                a{
+                    text-decoration: none;
+                    color: $black-color;
+                    font-weight: 300;
+                    display: block;
+                    padding-top: 8px;
+                    &:hover{
+                        color: $blue-color;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+.contact{ 
+    height: 75vh;
+    .textbox{
+        width: 40%;
+        margin: 6rem auto;
+        position: relative;
+        a{
+            display: block;
+            text-decoration: none;
+            margin-left: 10px;
+            color: $black-color;
+            font-weight: 300;
+            margin-top: 15px;
+            &:hover{
+                color: $blue-color;
+            }
+            i{
+                background: linear-gradient(90deg, rgba(2, 0, 36, 0.699) 0%, rgba(11,56,133,0.8099614845938375) 18%, rgba(205,156,208,1) 86%);
+                padding: 8px;
+                border-radius: 20px;
+                color: $white-color;
+            }
+        }
+        input{
+            width: 55%;
+            padding: 5px 18px;
+            margin-top: 9rem;
+
+        }
+        .abune{
+            position: absolute;
+            border-radius: 3px;
+            top: 86%;
+            left: 34%;
+            width: 18%;
+            padding: 8px 0;
+            text-align: center;
+            text-decoration: none;
+            font-size: 13px;
+            color: $white-color;
+            background: $buttongradient;
+        }
+    }
+    .mapbox{
+        width: 30%;
+        height: 50vh;
+        margin: 2rem auto;
+        background: $buttongradient;
+        text-align: center;
+    }
+}

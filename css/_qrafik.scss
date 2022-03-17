@@ -1,0 +1,21 @@
+.qrafik{
+    width: 100%;
+    height: 60vh;
+    .qrafbox{
+        width: 100%;
+        height: 100%;
+        background: $buttongradient;
+        .qrafleft{
+            margin-top: 2rem;
+            img{
+                width: 300px;
+                border: 10px;
+            }
+        }
+        .qrafright{
+            margin-top: 5rem;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            // color: gray;
+        }
+    }
+}

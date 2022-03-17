@@ -1,0 +1,98 @@
+.comparhome{
+    width: 100%;
+    // background-color: $blue-color;
+    .bigbox{
+        width: 100%;
+        height: 90vh;
+        position: relative;
+        .boxleft{
+            width: 37%;
+            color: $black-color;
+            position: absolute;
+            font-weight: 300;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            top: 20%;
+            h1{
+                color: $purple-color;
+                font-weight: bold;
+            }
+            p{
+                font-size: 16px;
+                color: gray;
+            }
+        }
+        .boxright{
+            width: 40%;
+            position: absolute;
+            top: 10%;
+            left: 55%;
+            // background:linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 0.5));
+            // &:hover{
+            // }
+            img{
+                // opacity: 0.9;
+                width: 100%;
+                border-radius: 15px;
+                //   background:linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 0.5));
+
+
+            }
+        }
+        .msg{
+            position: absolute;
+            position: fixed;
+            top: 90%;
+            right: 0%;
+            a{
+                font-size: 25px;
+                color: $white-color;
+                padding: 15px;
+                background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(167,31,212,0.8519782913165266) 8%, rgba(156,157,208,1) 52%, rgba(156,195,208,1) 100%);
+                border-radius: 28px;
+                transition: 0.4s;
+                &:hover{
+                    padding: 18px;
+                }
+
+
+            }
+        }
+    }
+}
+.melumat{
+    width: 100%;
+    height: 50vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(9, 2, 153, 0.842) 0%, rgba(177, 39, 223, 0.658) 24%, rgba(26, 108, 175, 0.705) 60%, rgb(26, 145, 192) 100%);
+    .boxleft{
+        margin-top: 7rem;
+        h1{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 2rem;
+        }
+    }
+    .boxright{
+        margin-top: 6rem;
+        margin-left: 8rem;
+        input{
+            padding: 10px 20px;  
+            margin-bottom: 10px;          
+        }
+        // .mes{
+        //     padding: 35px;
+        // }
+        a{
+            text-align: center;
+            width: 23%;
+            margin-top: 20px;
+            text-decoration: none;
+            padding: 10px 2rem;
+            border-radius: 5px;
+            display:block;
+            color: $white-color;
+            // background-color: $blue-color;
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2, 0, 36, 0.842) 0%, rgba(76, 11, 133, 0.712) 22%, rgba(0, 213, 255, 0.747) 79%);
+        }
+    }
+}
